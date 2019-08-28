@@ -15,3 +15,8 @@ spring:
 password: 
   algorithmName: md5
   hashIterations: 2
+#Eureka配置
+eureka:
+  center:
+    hostname: localhost
+    port: 8761
